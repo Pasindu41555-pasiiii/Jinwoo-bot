@@ -16,12 +16,12 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'MALVIN-XD~QwBQiCJL#sgTWQEWpAN6y5mKMMlrZ3eCA-9zWmDbp4z0yU6RQAkU' 
+global.SESSION_ID = process.env.SESSION_ID || 'MALVIN-XD~lpY2xSpD#RvL0tUya-6nWXOyTZCug7A7JrC8zZZAvdbatGxpGr34' 
 //Enter your Jinwoo session id here; must start with MALVIN-XD~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ-ʙᴏᴛ' 
+global.botname = process.env.BOT_NAME || '𝗤𝘂𝗲𝗲𝗻-𝗢𝘀𝗵𝗶' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
@@ -33,11 +33,11 @@ global.ownername = process.env.OWNER_NAME || 'Queen Oshi'
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "JINWOO" 
+global.packname = process.env.STICKER_PACK_NAME || "𝗾𝘂𝗲𝗲𝗻-𝗼𝘀𝗵𝗶" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "SUNG" 
+global.author = process.env.STICKER_AUTHOR_NAME || "𝗼𝘀𝗵𝗮𝗱𝗶" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
@@ -58,7 +58,7 @@ global.plink = process.env.PLINK || "https://www.youtube.com/@malvintech2"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©Jinwoo-ʙᴏᴛ"
+global.wm = process.env.GL_WM || "> ©𝗾𝘂𝗲𝗲𝗻-𝗼𝘀𝗵𝗶𝗯𝗼𝘁"
 
 //---------------------[ REPLIES ]-----------------------//
 
